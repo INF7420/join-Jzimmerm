@@ -83,7 +83,7 @@ main {
 }
 
 .background {
-  background-image: url(images/ozarks.jpg);
+  background-image: url(Images/ozarks.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -235,7 +235,7 @@ footer {
 
 .abouttext {
   position: relative;
-  
+
   padding-left: 5%;
   margin-left: 12%;
   margin-right: 0;
