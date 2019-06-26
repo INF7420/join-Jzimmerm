@@ -293,14 +293,14 @@ footer {
 }
 
 .contact {
-  float: left;
+
   font-size: 24px;
   position: relative;
   margin-bottom: 0;
 }
 
 .form {
-  float: left;
+
   font-size: 140%;
   color: #5a5854;
   position: relative;
@@ -329,7 +329,7 @@ footer {
 }
 
 .box1 {
-  min-width: 960px;
+  
   min-height: 700px;
   overflow-y: visible;
   position: relative;
