@@ -23,31 +23,92 @@
       </nav>
     </div>
   </header>
-  <div class="wrappermid">
+  <div class="wrappercontact">
     <main>
       <h1>Contact J</h1>
+      <div class="contactpage">
       <div class="box1">
         <div class="contact">
           <p>phone number - (555)555-5555</p>
           <p>email - jzimmerman@wayne.edu</p>
           <br><br>
-          <a href ="jizmmerman@wayne.edu"> Email Hyperlink</a>
-          <a href="stock resume"> Stock Resume</a>
+          <a href ="mailto:jizmmerman@wayne.edu"> Email Hyperlink</a>
+          <a href="stock resume"> Resume</a>
           <br><br>
         </div>
-          <div>
-            <form class="form" action="" method="post">
-              <textarea name="name"  type="text" placeholder="Name"></textarea>
-              <br>
-              <textarea name="email"  type="email"  placeholder="Email address"></textarea><br>
-                <textarea name="message" class="email" placeholder="message" rows="12" cols="68"></textarea><br>
-                <button><imput type="submit" class="submit" value="Send Message"></imput><img src="Images/crummy_save_button.png" alt="send" width="10" height="7"/></button>
+          <div class="form">
+            <form class="validate" action="https://formspree.io/jzimmerm0118@gmail.com" method="post">
+              <label for="name">Name</label>
+              <textarea id="name" class="info" name="name"  type="text" minlength="2" maxlength="22" required placeholder="  Your Name"></textarea>
+              <label for="email">Email</label>
+              <textarea id="email" class="info" name="email"  type="email" minlength="3" maxlength="35" required  placeholder="  Your prefered email address"></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="email" type="text" minlength="3" maxlength="120" required placeholder="  Message" rows="12" cols="68"></textarea>
+
+                <button type="submit" class="submit">Send</button>
 
               </form>
             </div>
       </div>
-        <div class="cal"> <img class="calendar" src="Images/portent_of_doom.jpg" alt="three small dogs facing forward.  This will eventually be a calender">
-        </div>
+        <div class="calendar">
+          <div class="jzdbox1 jzdbasf jzdcal">
+
+<div class="jzdcalt">July 2019</div>
+
+<span>Su</span>
+<span>Mo</span>
+<span>Tu</span>
+<span>We</span>
+<span>Th</span>
+<span>Fr</span>
+<span>Sa</span>
+
+
+<span class="jzdb"><!--BLANK--></span>
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4</span>
+<span>5</span>
+<span>6</span>
+<span class="circle" data-title="Poetry Reading">7</span>
+<span>8</span>
+<span>9</span>
+<span>10</span>
+<span>11</span>
+<span class="circle" data-title="Backspace Concert">12</span>
+<span>13</span>
+<span>14</span>
+<span>15</span>
+<span>16</span>
+<span >17</span>
+<span>18</span>
+<span>19</span>
+<span>20</span>
+<span>21</span>
+<span>22</span>
+<span>23</span>
+<span>24</span>
+<span>25</span>
+<span>26</span>
+<span>27</span>
+<span>28</span>
+<span>28</span>
+<span>30</span>
+<span>26</span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+<span class="jzdb"><!--BLANK--></span>
+</div>
+</div>
+</div>
       </main>
   </div>
       <div class="wrapperfoot">
@@ -56,5 +117,7 @@
           <div><p class="footertext">  Created and Designed by J Zimmerman (2019)</p></div>
         </footer>
         </div>
+        <script src="script.js"></script>
 </body>
+
 </html>
