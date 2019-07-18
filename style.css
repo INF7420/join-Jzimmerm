@@ -177,12 +177,13 @@ h1 {
 .body {
   margin-top: 3%;
   font-family: sans-serif;
-  color: #882b74;
-  background-color:#00cc44;
+  color: #3a1232;
+  background-color:#00bf3f;
   padding: 10px;
   border: 8px;
   border-color: #B9BAAF;
   border-style: groove;
+  border-radius: 8px;
   font-size: 120%;
   max-width: 460px;
   min-width: 85%;
@@ -240,9 +241,13 @@ footer {
 
 .vidorslide {
   position: relative;
-  margin: auto;
-  max-width: 700px;
-  max-height: 200px;
+  background-color:  #B9BAAF;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+	border: 15px ridge #B9BAAF;
+  border-radius: 8px;
+
 
 }
 
